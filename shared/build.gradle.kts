@@ -28,7 +28,15 @@ kotlin {
     }
     
     sourceSets {
-        val commonMain by getting
+        val commonMain by getting{
+            dependencies {
+                implementation ("com.arkivanov.mvikotlin:mvikotlin:3.1.0")
+                implementation ("com.arkivanov.mvikotlin:mvikotlin-main:3.1.0")
+                implementation ("com.arkivanov.mvikotlin:mvikotlin-logging:3.1.0")
+                implementation ("com.arkivanov.mvikotlin:mvikotlin-timetravel:3.1.0")
+                implementation ("com.arkivanov.mvikotlin:mvikotlin-extensions-coroutines:3.1.0")
+            }
+        }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))
