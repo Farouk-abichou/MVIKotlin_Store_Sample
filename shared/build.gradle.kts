@@ -1,3 +1,4 @@
+
 plugins {
     kotlin("multiplatform")
     kotlin("native.cocoapods")
@@ -32,8 +33,6 @@ kotlin {
             dependencies {
                 implementation ("com.arkivanov.mvikotlin:mvikotlin:3.1.0")
                 implementation ("com.arkivanov.mvikotlin:mvikotlin-main:3.1.0")
-                implementation ("com.arkivanov.mvikotlin:mvikotlin-logging:3.1.0")
-                implementation ("com.arkivanov.mvikotlin:mvikotlin-timetravel:3.1.0")
                 implementation ("com.arkivanov.mvikotlin:mvikotlin-extensions-coroutines:3.1.0")
             }
         }

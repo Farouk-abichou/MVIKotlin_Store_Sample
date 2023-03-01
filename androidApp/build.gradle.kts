@@ -46,4 +46,11 @@ dependencies {
     implementation("androidx.compose.foundation:foundation:1.3.1")
     implementation("androidx.compose.material:material:1.3.1")
     implementation("androidx.activity:activity-compose:1.6.1")
+
+
+    implementation ("com.arkivanov.mvikotlin:mvikotlin:3.1.0")
+    implementation ("com.arkivanov.mvikotlin:mvikotlin-main:3.1.0")
+    implementation ("com.arkivanov.mvikotlin:mvikotlin-logging:3.1.0")
+    implementation ("com.arkivanov.mvikotlin:mvikotlin-timetravel:3.1.0")
+    implementation ("com.arkivanov.mvikotlin:mvikotlin-extensions-coroutines:3.1.0")
 }
